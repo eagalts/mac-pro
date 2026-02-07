@@ -348,7 +348,7 @@ update-grub
 ```
 **Шаг 3.** Устанавливаем rEFInd
 ```bash
-apt install rEFInd 
+apt install refind 
 Y
 Yes - Enter
 sudo refind-install

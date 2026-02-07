@@ -274,7 +274,7 @@ wget https://github.com/jfwells/linux-asus-t100ta/raw/master/boot/bootia32.efi
 ```
 18. Скопируйте этот файл из папки загрузок и отмонтируйте диск:
 ```
-sudo cp /home/stefan/Downloads/bootia32.efi /tmp/sdb1/efi/boot/
+sudo cp /home/.../Downloads/bootia32.efi /tmp/sdb1/efi/boot/
 sync
 sudo umount /tmp/sdb1
 ```

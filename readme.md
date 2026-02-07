@@ -278,7 +278,7 @@ sudo cp /home/stefan/Downloads/bootia32.efi /tmp/sdb1/efi/boot/
 sync
 sudo umount /tmp/sdb1
 ```
-19. Поместите ISO-образ на второй раздел флешки:
+19. Поместите ISO-образ на второй раздел флешки. Замените `/path/to/lubuntu.iso` на реальный путь до установочного ISO-файла.
 ```
 sudo dd if=/path/to/lubuntu.iso of=/dev/ sdb 2 bs=1M
 ```

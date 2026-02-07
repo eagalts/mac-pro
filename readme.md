@@ -268,7 +268,7 @@ search --file --set=root /boot/grub/loopback.cfg
 configfile /boot/grub/loopback.cfg
 ```
 16. Выходим из `nano` с сохранением настроек.
-17. Скачиваем 23-х битный EFI загрузчик через `wget` (если возникли траблы со скачиванием так, от можно скачать вручную с гит-репозитория):
+17. Скачиваем 32-х битный EFI загрузчик через `wget` (если возникли траблы со скачиванием так, от можно скачать вручную с гит-репозитория):
 ```
 wget https://github.com/jfwells/linux-asus-t100ta/raw/master/boot/bootia32.efi
 ```
